@@ -1,8 +1,7 @@
 name: main
 
 on:
-  push:
-  pull_request:
+  
 
 concurrency:
   group: main-${{ github.head_ref }}
